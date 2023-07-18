@@ -1,6 +1,7 @@
-import { serverAction } from "./_actions";
+import { serverAction } from "../_actions";
 
-/** Add your relevant code here for the issue to reproduce */
+export const revalidate = 1;
+
 export default function Home() {
   return <div>
     <h1>Here is a heading</h1>
